@@ -1,0 +1,1089 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary SEO Meta Tags -->
+  <title>Arvind Kumar | BCA 2nd Year Student & Aspiring Web Developer</title>
+  <meta name="title" content="Arvind Kumar | BCA 2nd Year Student & Aspiring Web Developer">
+  <meta name="description" content="Personal portfolio of Arvind Kumar - BCA 2nd Year Student at Madhusudan Das Degree College & Aspiring Web Developer passionate about HTML, CSS, JavaScript, C, and C++.">
+  <meta name="keywords" content="Arvind Kumar, Portfolio, BCA Student, Web Developer, Frontend Developer, Madhusudan Das Degree College, Uttar Pradesh, HTML, CSS, JavaScript, C, C++">
+  <meta name="author" content="Arvind Kumar">
+  <meta name="theme-color" content="#07090e">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Arvind Kumar | BCA 2nd Year Student & Aspiring Web Developer">
+  <meta property="og:description" content="Explore projects, skills, education, and credentials of Arvind Kumar, an aspiring web developer and BCA student.">
+  <meta property="og:image" content="assets/arvind-profile.jpg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Arvind Kumar | BCA 2nd Year Student & Aspiring Web Developer">
+  <meta property="twitter:description" content="Explore projects, skills, education, and credentials of Arvind Kumar, an aspiring web developer and BCA student.">
+  <meta property="twitter:image" content="assets/arvind-profile.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+  <!-- Google Fonts Preconnect & Stylesheets -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome 6.5.1 CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background Ambient Glow & Interactive Constellation Canvas -->
+  <canvas id="bg-canvas"></canvas>
+  <div class="bg-ambient-glow glow-1"></div>
+  <div class="bg-ambient-glow glow-2"></div>
+
+  <!-- Top Scroll Progress Bar -->
+  <div class="scroll-progress-container">
+    <div class="scroll-progress-bar" id="scroll-progress-bar"></div>
+  </div>
+
+  <!-- ==========================================================================
+       HEADER & NAVIGATION BAR
+       ========================================================================== -->
+  <header class="navbar" id="main-navbar">
+    <div class="container nav-container">
+      <!-- Brand Logo -->
+      <a href="#home" class="nav-brand" aria-label="Arvind Kumar Portfolio Home">
+        <div class="nav-logo-icon">&lt;AK/&gt;</div>
+        <span>Arvind<span class="gradient-text">.dev</span></span>
+      </a>
+
+      <!-- Desktop & Mobile Navigation Links -->
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#certificates" class="nav-link">Certificates</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <!-- Action Buttons: Theme Switcher & Hamburger Menu -->
+      <div class="nav-actions">
+        <button class="theme-toggle-btn" id="theme-toggle-btn" aria-label="Toggle Dark / Light Mode" title="Toggle Theme">
+          <i class="fa-solid fa-moon theme-icon-moon"></i>
+          <i class="fa-solid fa-sun theme-icon-sun"></i>
+        </button>
+
+        <button class="hamburger-btn" id="hamburger-btn" aria-label="Toggle Navigation Menu">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Overlay -->
+  <div class="mobile-nav-overlay" id="mobile-nav-overlay"></div>
+
+  <!-- ==========================================================================
+       MAIN CONTENT CONTAINER
+       ========================================================================== -->
+  <main>
+
+    <!-- ========================================================================
+         1. HERO SECTION
+         ======================================================================== -->
+    <section id="home" class="hero-section">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <!-- Hero Text & CTA -->
+          <div class="hero-content reveal-left">
+            
+            <!-- Availability Badge -->
+            <div class="hero-status-badge">
+              <span class="pulse-dot"></span>
+              <span>Available for Internships &amp; Projects</span>
+            </div>
+
+            <!-- Greeting & Main Name -->
+            <h2 class="hero-greeting">Hi, I'm</h2>
+            <h1 class="hero-title">
+              <span class="gradient-text">Arvind Kumar</span>
+            </h1>
+
+            <!-- Dynamic Typed Subtitle -->
+            <div class="hero-subtitle-container">
+              <span class="gradient-text" id="typed-hero-text">BCA Student &amp; Aspiring Web Developer</span>
+              <span class="typed-cursor">|</span>
+            </div>
+
+            <!-- Short Professional Introduction -->
+            <p class="hero-description">
+              I am a BCA 2nd year student passionate about programming and web development. I am continuously improving my technical skills and working toward becoming a professional full-stack web developer.
+            </p>
+
+            <!-- CTA Buttons -->
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">
+                <span>View My Projects</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+              <a href="#contact" class="btn btn-secondary">
+                <span>Contact Me</span>
+                <i class="fa-solid fa-paper-plane"></i>
+              </a>
+            </div>
+
+            <!-- Social / Quick Contact Row -->
+            <div class="hero-social-links">
+              <span class="hero-social-title">Connect:</span>
+              <a href="mailto:arvindgupta32023@gmail.com" class="social-icon-btn" title="Email Arvind" aria-label="Send Email">
+                <i class="fa-solid fa-envelope"></i>
+              </a>
+              <a href="tel:9582035342" class="social-icon-btn" title="Call Arvind" aria-label="Phone Number">
+                <i class="fa-solid fa-phone"></i>
+              </a>
+              <!-- EDIT HERE: Replace '#' with your actual social links when available -->
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="GitHub" aria-label="GitHub Profile">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="LinkedIn" aria-label="LinkedIn Profile">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="Instagram" aria-label="Instagram Profile">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </div>
+
+          </div>
+
+          <!-- Hero Visual & Real Profile Image -->
+          <div class="hero-visual reveal-right">
+            <div class="avatar-wrapper">
+              <div class="avatar-glow-ring"></div>
+              
+              <!-- Profile Avatar Card -->
+              <div class="avatar-card">
+                <img src="assets/arvind-profile.jpg" alt="Arvind Kumar profile photo" width="380" height="380" loading="eager">
+              </div>
+
+              <!-- Floating Tech Badges -->
+              <div class="floating-pill pill-1">
+                <i class="fa-solid fa-bolt"></i>
+                <span>HTML • CSS • JS</span>
+              </div>
+              <div class="floating-pill pill-2">
+                <i class="fa-solid fa-code"></i>
+                <span>C &amp; C++ Logic</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         2. ABOUT SECTION
+         ======================================================================== -->
+    <section id="about" class="section">
+      <div class="container">
+        
+        <!-- Section Header -->
+        <div class="section-header reveal-up">
+          <div class="section-badge">
+            <i class="fa-solid fa-user"></i>
+            <span>About Me</span>
+          </div>
+          <h2 class="section-title">Passionate Learner, <span class="gradient-text">Future Builder</span></h2>
+          <p class="section-subtitle">A glimpse into my academic journey, passion for programming, and aspiration to develop world-class digital experiences.</p>
+        </div>
+
+        <div class="about-grid">
+          
+          <!-- Narrative & Biography -->
+          <div class="about-text reveal-left">
+            <p>
+              I am <strong>Arvind Kumar</strong>, a BCA 2nd year student currently pursuing <strong>Bachelor of Computer Applications</strong> at <strong>Madhusudan Das Degree College</strong>.
+            </p>
+            <p>
+              I am passionate about programming, web development and technology. I am currently building my skills through practical projects and continuous learning.
+            </p>
+            <p>
+              I have developed a strong foundation in core computer programming through <strong>C and C++</strong>, and I am actively immersing myself in modern web technologies including <strong>HTML5, CSS3, JavaScript, and responsive UI design</strong>. My goal is to become a professional full-stack web developer.
+            </p>
+
+            <!-- Quick Info Metadata Grid -->
+            <div class="about-quick-info">
+              <div class="info-item">
+                <span class="info-label">Degree</span>
+                <span class="info-value">BCA (2nd Year)</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">College</span>
+                <span class="info-value">Madhusudan Das Degree College</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Location</span>
+                <span class="info-value">Uttar Pradesh, India</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Focus Area</span>
+                <span class="info-value">Frontend &amp; Web Dev</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick Stat Cards -->
+          <div class="about-stats-grid reveal-right">
+            
+            <div class="glass-card stat-card">
+              <div class="stat-icon">
+                <i class="fa-solid fa-graduation-cap"></i>
+              </div>
+              <div class="stat-number gradient-text">BCA 2nd Yr</div>
+              <div class="stat-label">Computer Applications</div>
+            </div>
+
+            <div class="glass-card stat-card">
+              <div class="stat-icon">
+                <i class="fa-solid fa-laptop-code"></i>
+              </div>
+              <div class="stat-number gradient-text">Programming</div>
+              <div class="stat-label">C, C++ &amp; Data Logic</div>
+            </div>
+
+            <div class="glass-card stat-card">
+              <div class="stat-icon">
+                <i class="fa-solid fa-code"></i>
+              </div>
+              <div class="stat-number gradient-text">Web Dev</div>
+              <div class="stat-label">HTML5, CSS3 &amp; Modern JS</div>
+            </div>
+
+            <div class="glass-card stat-card">
+              <div class="stat-icon">
+                <i class="fa-solid fa-rocket"></i>
+              </div>
+              <div class="stat-number gradient-text">Full-Stack</div>
+              <div class="stat-label">Aspiring Career Goal</div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         3. SKILLS SECTION
+         ======================================================================== -->
+    <section id="skills" class="section">
+      <div class="container">
+        
+        <!-- Section Header -->
+        <div class="section-header reveal-up">
+          <div class="section-badge">
+            <i class="fa-solid fa-microchip"></i>
+            <span>Technical Skills</span>
+          </div>
+          <h2 class="section-title">My Technical <span class="gradient-text">Toolbox</span></h2>
+          <p class="section-subtitle">Practical competencies, programming languages, and development tools I work with.</p>
+        </div>
+
+        <!-- Skills List and Proficiency Levels -->
+        <div class="skills-container">
+          
+          <!-- Category 1: Frontend & Web Technologies -->
+          <div class="skills-category-block reveal-up">
+            <h3 class="skills-category-title">
+              <i class="fa-solid fa-layer-group"></i>
+              <span>Frontend &amp; Web Technologies</span>
+            </h3>
+            <div class="skills-grid">
+              
+              <!-- HTML5 -->
+              <div class="glass-card skill-card">
+                <div class="skill-header">
+                  <div class="skill-info">
+                    <div class="skill-icon-wrap"><i class="fa-brands fa-html5" style="color: #e34f26;"></i></div>
+                    <span class="skill-name">HTML5</span>
+                  </div>
+                  <span class="skill-badge">Advanced</span>
+                </div>
+                <div class="skill-progress-track">
+                  <div class="skill-progress-bar" data-skill-level="90%"></div>
+                </div>
+              </div>
+
+              <!-- CSS3 -->
+              <div class="glass-card skill-card">
+                <div class="skill-header">
+                  <div class="skill-info">
+                    <div class="skill-icon-wrap"><i class="fa-brands fa-css3-alt" style="color: #1572b6;"></i></div>
+                    <span class="skill-name">CSS3</span>
+                  </div>
+                  <span class="skill-badge">Advanced</span>
+                </div>
+                <div class="skill-progress-track">
+                  <div class="skill-progress-bar" data-skill-level="85%"></div>
+                </div>
+              </div>
+
+              <!-- JavaScript -->
+              <div class="glass-card skill-card">
+                <div class="skill-header">
+                  <div class="skill-info">
+                    <div class="skill-icon-wrap"><i class="fa-brands fa-js" style="color: #f7df1e;"></i></div>
+                    <span class="skill-name">JavaScript</span>
+                  </div>
+                  <span class="skill-badge">Intermediate</span>
+                </div>
+                <div class="skill-progress-track">
+                  <div class="skill-progress-bar" data-skill-level="75%"></div>
+                </div>
+              </div>
+
+              <!-- Responsive Web Design -->
+              <div class="glass-card skill-card">
+                <div class="skill-header">
+                  <div class="skill-info">
+                    <div class="skill-icon-wrap"><i class="fa-solid fa-mobile-screen-button" style="color: #00f2fe;"></i></div>
+                    <span class="skill-name">Responsive Design</span>
+                  </div>
+                  <span class="skill-badge">Proficient</span>
+                </div>
+                <div class="skill-progress-track">
+                  <div class="skill-progress-bar" data-skill-level="85%"></div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Category 2: Programming Languages -->
+          <div class="skills-category-block reveal-up">
+            <h3 class="skills-category-title">
+              <i class="fa-solid fa-terminal"></i>
+              <span>Core Programming &amp; Logic</span>
+            </h3>
+            <div class="skills-grid">
+              
+              <!-- C Language -->
+              <div class="glass-card skill-card">
+                <div class="skill-header">
+                  <div class="skill-info">
+                    <div class="skill-icon-wrap"><i class="fa-solid fa-c" style="color: #00599c;"></i></div>
+                    <span class="skill-name">C Programming</span>
+                  </div>
+                  <span class="skill-badge">Proficient</span>
+                </div>
+                <div class="skill-progress-track">
+                  <div class="skill-progress-bar" data-skill-level="80%"></div>
+                </div>
+              </div>
+
+              <!-- C++ Language -->
+              <div class="glass-card skill-card">
+                <div class="skill-header">
+                  <div class="skill-info">
+                    <div class="skill-icon-wrap"><i class="fa-solid fa-code" style="color: #659ad2;"></i></div>
+                    <span class="skill-name">C++ &amp; OOP</span>
+                  </div>
+                  <span class="skill-badge">Intermediate</span>
+                </div>
+                <div class="skill-progress-track">
+                  <div class="skill-progress-bar" data-skill-level="75%"></div>
+                </div>
+              </div>
+
+              <!-- Basic Web Development -->
+              <div class="glass-card skill-card">
+                <div class="skill-header">
+                  <div class="skill-info">
+                    <div class="skill-icon-wrap"><i class="fa-solid fa-globe" style="color: #10b981;"></i></div>
+                    <span class="skill-name">Web Architecture</span>
+                  </div>
+                  <span class="skill-badge">Proficient</span>
+                </div>
+                <div class="skill-progress-track">
+                  <div class="skill-progress-bar" data-skill-level="80%"></div>
+                </div>
+              </div>
+
+              <!-- Problem Solving -->
+              <div class="glass-card skill-card">
+                <div class="skill-header">
+                  <div class="skill-info">
+                    <div class="skill-icon-wrap"><i class="fa-solid fa-brain" style="color: #ec4899;"></i></div>
+                    <span class="skill-name">Data Logic</span>
+                  </div>
+                  <span class="skill-badge">Active Learner</span>
+                </div>
+                <div class="skill-progress-track">
+                  <div class="skill-progress-bar" data-skill-level="70%"></div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Category 3: Tools & Environment -->
+          <div class="skills-category-block reveal-up">
+            <h3 class="skills-category-title">
+              <i class="fa-solid fa-screwdriver-wrench"></i>
+              <span>Tools &amp; Workflow</span>
+            </h3>
+            <div class="skills-grid">
+              
+              <!-- VS Code -->
+              <div class="glass-card skill-card">
+                <div class="skill-header">
+                  <div class="skill-info">
+                    <div class="skill-icon-wrap"><i class="fa-solid fa-code-branch" style="color: #007acc;"></i></div>
+                    <span class="skill-name">VS Code</span>
+                  </div>
+                  <span class="skill-badge">Daily Driver</span>
+                </div>
+                <div class="skill-progress-track">
+                  <div class="skill-progress-bar" data-skill-level="85%"></div>
+                </div>
+              </div>
+
+              <!-- Git & GitHub -->
+              <div class="glass-card skill-card">
+                <div class="skill-header">
+                  <div class="skill-info">
+                    <div class="skill-icon-wrap"><i class="fa-brands fa-github" style="color: #8b5cf6;"></i></div>
+                    <span class="skill-name">Git &amp; GitHub</span>
+                  </div>
+                  <span class="skill-badge">Intermediate</span>
+                </div>
+                <div class="skill-progress-track">
+                  <div class="skill-progress-bar" data-skill-level="70%"></div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         4. EDUCATION SECTION
+         ======================================================================== -->
+    <section id="education" class="section">
+      <div class="container">
+        
+        <!-- Section Header -->
+        <div class="section-header reveal-up">
+          <div class="section-badge">
+            <i class="fa-solid fa-book-bookmark"></i>
+            <span>Academic Background</span>
+          </div>
+          <h2 class="section-title">Education <span class="gradient-text">Timeline</span></h2>
+          <p class="section-subtitle">My formal academic qualifications and learning journey.</p>
+        </div>
+
+        <!-- Timeline Container -->
+        <div class="timeline-wrapper">
+          <div class="timeline-track"></div>
+
+          <!-- Timeline Item 1: BCA 2nd Year (Active) -->
+          <div class="timeline-item reveal-left">
+            <div class="timeline-node"></div>
+            <div class="glass-card education-card">
+              <div class="edu-badge-row">
+                <span class="edu-year">2024 — Present</span>
+                <span class="edu-status"><i class="fa-solid fa-circle-check"></i> Currently Pursuing</span>
+              </div>
+              <h3 class="edu-title">Bachelor of Computer Applications (BCA) — 2nd Year</h3>
+              <div class="edu-institution">Madhusudan Das Degree College, Uttar Pradesh</div>
+              <p class="edu-desc">
+                Engaged in deep study of computer science fundamentals, object-oriented programming with C++, database management systems, data structures, algorithms, and web application development principles.
+              </p>
+            </div>
+          </div>
+
+          <!-- Timeline Item 2: 12th Standard / Intermediate (Editable Placeholder) -->
+          <div class="timeline-item reveal-left">
+            <div class="timeline-node"></div>
+            <div class="glass-card education-card">
+              <div class="edu-badge-row">
+                <!-- EDIT HERE: Replace Year -->
+                <span class="edu-year">Intermediate (12th)</span>
+                <span class="edu-status" style="color: #60a5fa;"><i class="fa-solid fa-award"></i> Completed</span>
+              </div>
+              <!-- EDIT HERE: Replace Stream and College Name -->
+              <h3 class="edu-title">Higher Secondary Education (12th Standard)</h3>
+              <div class="edu-institution">State / Central Board School / College, Uttar Pradesh</div>
+              <p class="edu-desc">
+                Completed intermediate education with a focus on Mathematics and Computer Science, establishing strong analytical reasoning and logical problem-solving foundations.
+              </p>
+            </div>
+          </div>
+
+          <!-- Timeline Item 3: 10th Standard / High School (Editable Placeholder) -->
+          <div class="timeline-item reveal-left">
+            <div class="timeline-node"></div>
+            <div class="glass-card education-card">
+              <div class="edu-badge-row">
+                <!-- EDIT HERE: Replace Year -->
+                <span class="edu-year">High School (10th)</span>
+                <span class="edu-status" style="color: #60a5fa;"><i class="fa-solid fa-award"></i> Completed</span>
+              </div>
+              <!-- EDIT HERE: Replace School Name -->
+              <h3 class="edu-title">Secondary School Certificate (10th Standard)</h3>
+              <div class="edu-institution">Secondary High School, Uttar Pradesh</div>
+              <p class="edu-desc">
+                Completed secondary education with comprehensive academic excellence, cultivating early interest in computers, technology, and science.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         5. PROJECTS SECTION
+         ======================================================================== -->
+    <section id="projects" class="section">
+      <div class="container">
+        
+        <!-- Section Header -->
+        <div class="section-header reveal-up">
+          <div class="section-badge">
+            <i class="fa-solid fa-folder-open"></i>
+            <span>Featured Work</span>
+          </div>
+          <h2 class="section-title">My Recent <span class="gradient-text">Projects</span></h2>
+          <p class="section-subtitle">Handcrafted web applications, coding projects, and logic systems built with passion.</p>
+        </div>
+
+        <!-- Category Filter Buttons -->
+        <div class="projects-filter-bar reveal-up">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="web">Web Development</button>
+          <button class="filter-btn" data-filter="cpp">C / C++ Programs</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid">
+
+          <!-- Project 1: Personal Portfolio Website -->
+          <div class="project-card-item reveal-up" data-category="web">
+            <div class="glass-card project-card">
+              <div class="project-thumb-container">
+                <img src="assets/project-1.svg" alt="Personal Portfolio Website Thumbnail" class="project-thumb" width="600" height="380" loading="lazy">
+                <div class="project-thumb-overlay"></div>
+              </div>
+              <div class="project-content">
+                <div class="project-tags">
+                  <span class="project-tag">HTML5</span>
+                  <span class="project-tag">CSS3</span>
+                  <span class="project-tag">JavaScript</span>
+                  <span class="project-tag">Responsive UI</span>
+                </div>
+                <h3 class="project-title">Modern Futuristic Developer Portfolio</h3>
+                <p class="project-description">
+                  A high-performance personal portfolio featuring Dark/Light mode, interactive canvas constellation background, dynamic typing animations, and mobile-first responsive architecture.
+                </p>
+                <div class="project-actions">
+                  <!-- EDIT HERE: Replace '#' with live demo link -->
+                  <a href="#home" class="btn btn-primary btn-sm">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    <span>Live Demo</span>
+                  </a>
+                  <!-- EDIT HERE: Replace '#' with GitHub repository link -->
+                  <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                    <i class="fa-brands fa-github"></i>
+                    <span>Source Code</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2: Student Record & Analytics System (C++) -->
+          <div class="project-card-item reveal-up" data-category="cpp">
+            <div class="glass-card project-card">
+              <div class="project-thumb-container">
+                <img src="assets/project-2.svg" alt="Student Record Management System Thumbnail" class="project-thumb" width="600" height="380" loading="lazy">
+                <div class="project-thumb-overlay"></div>
+              </div>
+              <div class="project-content">
+                <div class="project-tags">
+                  <span class="project-tag">C++</span>
+                  <span class="project-tag">OOP</span>
+                  <span class="project-tag">File Handling</span>
+                  <span class="project-tag">Algorithms</span>
+                </div>
+                <h3 class="project-title">Student Record &amp; Analytics System</h3>
+                <p class="project-description">
+                  A comprehensive terminal-based console application in C++ designed to manage student records, calculate GPAs, perform binary file persistence, and sort academic metrics using MergeSort.
+                </p>
+                <div class="project-actions">
+                  <!-- EDIT HERE: Replace '#' with GitHub link -->
+                  <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                    <i class="fa-solid fa-terminal"></i>
+                    <span>View Project</span>
+                  </a>
+                  <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                    <i class="fa-brands fa-github"></i>
+                    <span>Source Code</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3: Responsive TaskFlow Web Application -->
+          <div class="project-card-item reveal-up" data-category="web">
+            <div class="glass-card project-card">
+              <div class="project-thumb-container">
+                <img src="assets/project-3.svg" alt="TaskFlow Web Application Thumbnail" class="project-thumb" width="600" height="380" loading="lazy">
+                <div class="project-thumb-overlay"></div>
+              </div>
+              <div class="project-content">
+                <div class="project-tags">
+                  <span class="project-tag">JavaScript</span>
+                  <span class="project-tag">HTML5 / CSS3</span>
+                  <span class="project-tag">LocalStorage</span>
+                  <span class="project-tag">Web App</span>
+                </div>
+                <h3 class="project-title">TaskFlow — Productivity Dashboard UI</h3>
+                <p class="project-description">
+                  A clean and intuitive productivity dashboard that lets students track daily assignments, prioritize programming tasks, filter statuses, and persist records locally in browser storage.
+                </p>
+                <div class="project-actions">
+                  <!-- EDIT HERE: Replace '#' with demo link -->
+                  <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    <span>Live Demo</span>
+                  </a>
+                  <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                    <i class="fa-brands fa-github"></i>
+                    <span>Source Code</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         6. CERTIFICATES SECTION
+         ======================================================================== -->
+    <section id="certificates" class="section">
+      <div class="container">
+        
+        <!-- Section Header -->
+        <div class="section-header reveal-up">
+          <div class="section-badge">
+            <i class="fa-solid fa-certificate"></i>
+            <span>Certifications &amp; Badges</span>
+          </div>
+          <h2 class="section-title">Verified <span class="gradient-text">Certificates</span></h2>
+          <p class="section-subtitle">Professional courses, online workshops, and programming milestones.</p>
+        </div>
+
+        <!-- Certificates Grid -->
+        <div class="certs-grid">
+
+          <!-- Certificate 1: Web Development Fundamentals -->
+          <div class="glass-card cert-card reveal-up">
+            <div class="cert-preview-wrap">
+              <img src="assets/cert-placeholder.svg" alt="Web Development Fundamentals Certificate" class="cert-preview-img" width="600" height="420" loading="lazy">
+              <span class="cert-badge-overlay"><i class="fa-solid fa-check"></i> Verified</span>
+            </div>
+            <div class="cert-content">
+              <h3 class="cert-title">Web Development Fundamentals</h3>
+              <div class="cert-issuer"><i class="fa-solid fa-building-columns"></i> Web Development Academy</div>
+              <div class="cert-date"><i class="fa-regular fa-calendar"></i> Issued: 2025 • Credential ID: AK-WEB-01</div>
+              <button class="btn btn-secondary btn-sm cert-btn view-cert-btn">
+                <i class="fa-regular fa-eye"></i>
+                <span>View Certificate</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Certificate 2: C / C++ Programming Foundations -->
+          <div class="glass-card cert-card reveal-up">
+            <div class="cert-preview-wrap">
+              <img src="assets/cert-placeholder.svg" alt="C & C++ Programming Foundations Certificate" class="cert-preview-img" width="600" height="420" loading="lazy">
+              <span class="cert-badge-overlay"><i class="fa-solid fa-check"></i> Verified</span>
+            </div>
+            <div class="cert-content">
+              <h3 class="cert-title">C &amp; C++ Programming Foundations</h3>
+              <div class="cert-issuer"><i class="fa-solid fa-building-columns"></i> Computer Science Institute</div>
+              <div class="cert-date"><i class="fa-regular fa-calendar"></i> Issued: 2025 • Credential ID: AK-CPP-02</div>
+              <button class="btn btn-secondary btn-sm cert-btn view-cert-btn">
+                <i class="fa-regular fa-eye"></i>
+                <span>View Certificate</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Certificate 3: Responsive Web Design Mastery -->
+          <div class="glass-card cert-card reveal-up">
+            <div class="cert-preview-wrap">
+              <img src="assets/cert-placeholder.svg" alt="Responsive Web Design Mastery Certificate" class="cert-preview-img" width="600" height="420" loading="lazy">
+              <span class="cert-badge-overlay"><i class="fa-solid fa-check"></i> Verified</span>
+            </div>
+            <div class="cert-content">
+              <h3 class="cert-title">Responsive Web Design Mastery</h3>
+              <div class="cert-issuer"><i class="fa-solid fa-building-columns"></i> Developer Certification Hub</div>
+              <div class="cert-date"><i class="fa-regular fa-calendar"></i> Issued: 2026 • Credential ID: AK-RWD-03</div>
+              <button class="btn btn-secondary btn-sm cert-btn view-cert-btn">
+                <i class="fa-regular fa-eye"></i>
+                <span>View Certificate</span>
+              </button>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         7. SERVICES / WHAT I DO SECTION
+         ======================================================================== -->
+    <section id="services" class="section">
+      <div class="container">
+        
+        <!-- Section Header -->
+        <div class="section-header reveal-up">
+          <div class="section-badge">
+            <i class="fa-solid fa-wand-magic-sparkles"></i>
+            <span>Services &amp; Offerings</span>
+          </div>
+          <h2 class="section-title">What I <span class="gradient-text">Can Do</span></h2>
+          <p class="section-subtitle">Dedicated services I provide as an aspiring developer and computer application student.</p>
+        </div>
+
+        <!-- Services Grid -->
+        <div class="services-grid">
+
+          <!-- Service 1: Web Development -->
+          <div class="glass-card service-card reveal-up">
+            <div class="service-icon-box">
+              <i class="fa-solid fa-code"></i>
+            </div>
+            <h3 class="service-title">Web Development</h3>
+            <p class="service-description">
+              Crafting clean, semantic, and standards-compliant websites using modern HTML5, CSS3, and JavaScript with fast loading speeds.
+            </p>
+            <ul class="service-features">
+              <li class="service-feature-item"><i class="fa-solid fa-circle-check"></i> Semantic HTML5 Structure</li>
+              <li class="service-feature-item"><i class="fa-solid fa-circle-check"></i> Clean, Maintainable Code</li>
+              <li class="service-feature-item"><i class="fa-solid fa-circle-check"></i> SEO &amp; Performance Optimized</li>
+            </ul>
+          </div>
+
+          <!-- Service 2: Responsive Web Design -->
+          <div class="glass-card service-card reveal-up">
+            <div class="service-icon-box">
+              <i class="fa-solid fa-mobile-screen"></i>
+            </div>
+            <h3 class="service-title">Responsive Website Design</h3>
+            <p class="service-description">
+              Ensuring your website looks impeccable and functions effortlessly across all mobile phones, tablets, laptops, and wide monitors.
+            </p>
+            <ul class="service-features">
+              <li class="service-feature-item"><i class="fa-solid fa-circle-check"></i> Mobile-First Approach</li>
+              <li class="service-feature-item"><i class="fa-solid fa-circle-check"></i> Fluid CSS Grids &amp; Flexbox</li>
+              <li class="service-feature-item"><i class="fa-solid fa-circle-check"></i> Touch &amp; Gesture Friendly</li>
+            </ul>
+          </div>
+
+          <!-- Service 3: Frontend Development -->
+          <div class="glass-card service-card reveal-up">
+            <div class="service-icon-box">
+              <i class="fa-solid fa-browsers"></i>
+            </div>
+            <h3 class="service-title">Frontend Development</h3>
+            <p class="service-description">
+              Building dynamic, interactive UI components, modals, filters, and theme switchers using modern vanilla JavaScript and DOM APIs.
+            </p>
+            <ul class="service-features">
+              <li class="service-feature-item"><i class="fa-solid fa-circle-check"></i> Interactive UI Components</li>
+              <li class="service-feature-item"><i class="fa-solid fa-circle-check"></i> LocalStorage State Handling</li>
+              <li class="service-feature-item"><i class="fa-solid fa-circle-check"></i> Lightweight Vanilla JS</li>
+            </ul>
+          </div>
+
+          <!-- Service 4: Programming & Logic -->
+          <div class="glass-card service-card reveal-up">
+            <div class="service-icon-box">
+              <i class="fa-solid fa-terminal"></i>
+            </div>
+            <h3 class="service-title">Programming &amp; Logic</h3>
+            <p class="service-description">
+              Writing structured, efficient C and C++ programs with sound algorithmic logic, memory management, and file storage handling.
+            </p>
+            <ul class="service-features">
+              <li class="service-feature-item"><i class="fa-solid fa-circle-check"></i> Object-Oriented Principles</li>
+              <li class="service-feature-item"><i class="fa-solid fa-circle-check"></i> Algorithmic Problem Solving</li>
+              <li class="service-feature-item"><i class="fa-solid fa-circle-check"></i> Data Handling &amp; Validation</li>
+            </ul>
+          </div>
+
+          <!-- Service 5: Modern UI Styling -->
+          <div class="glass-card service-card reveal-up">
+            <div class="service-icon-box">
+              <i class="fa-solid fa-palette"></i>
+            </div>
+            <h3 class="service-title">Modern Website UI Design</h3>
+            <p class="service-description">
+              Designing sleek, futuristic technology-inspired web layouts featuring elegant glassmorphism, subtle neon glows, and smooth transitions.
+            </p>
+            <ul class="service-features">
+              <li class="service-feature-item"><i class="fa-solid fa-circle-check"></i> Glassmorphism Aesthetics</li>
+              <li class="service-feature-item"><i class="fa-solid fa-circle-check"></i> Custom Dark/Light Modes</li>
+              <li class="service-feature-item"><i class="fa-solid fa-circle-check"></i> Balanced Visual Hierarchy</li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         8. CONTACT SECTION
+         ======================================================================== -->
+    <section id="contact" class="section">
+      <div class="container">
+        
+        <!-- Section Header -->
+        <div class="section-header reveal-up">
+          <div class="section-badge">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Get In Touch</span>
+          </div>
+          <h2 class="section-title">Let's Build Something <span class="gradient-text">Together</span></h2>
+          <p class="section-subtitle">Have a project in mind, an internship opportunity, or just want to connect? Send me a message!</p>
+        </div>
+
+        <div class="contact-grid">
+          
+          <!-- Direct Contact Information Cards -->
+          <div class="contact-info-col reveal-left">
+            
+            <!-- Email Item with Copy & Click-to-Mail Feature -->
+            <div class="glass-card contact-card-item">
+              <div class="contact-icon-wrap">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div class="contact-detail-text">
+                <span class="contact-card-label">Email Address</span>
+                <a href="mailto:arvindgupta32023@gmail.com" class="contact-card-val" id="contact-email-text">arvindgupta32023@gmail.com</a>
+              </div>
+              <button class="copy-btn" id="copy-email-btn" title="Copy Email" aria-label="Copy Email to Clipboard">
+                <i class="fa-regular fa-copy"></i>
+              </button>
+            </div>
+
+            <!-- Phone Item with Click-to-Call Feature -->
+            <div class="glass-card contact-card-item">
+              <div class="contact-icon-wrap">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div class="contact-detail-text">
+                <span class="contact-card-label">Phone / WhatsApp</span>
+                <a href="tel:9582035342" class="contact-card-val">9582035342</a>
+              </div>
+            </div>
+
+            <!-- Location Item -->
+            <div class="glass-card contact-card-item">
+              <div class="contact-icon-wrap">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div class="contact-detail-text">
+                <span class="contact-card-label">Location</span>
+                <span class="contact-card-val">Uttar Pradesh, India</span>
+              </div>
+            </div>
+
+            <!-- College / Degree Item -->
+            <div class="glass-card contact-card-item">
+              <div class="contact-icon-wrap">
+                <i class="fa-solid fa-building-columns"></i>
+              </div>
+              <div class="contact-detail-text">
+                <span class="contact-card-label">Institution</span>
+                <span class="contact-card-val">Madhusudan Das Degree College</span>
+              </div>
+            </div>
+
+            <!-- Social Links Grid -->
+            <!-- EDIT HERE: Update actual profile URLs -->
+            <div class="glass-card contact-card-item" style="flex-direction: column; align-items: flex-start; gap: 0.8rem;">
+              <span class="contact-card-label">Find Me Online</span>
+              <div style="display: flex; gap: 0.8rem; width: 100%;">
+                <a href="mailto:arvindgupta32023@gmail.com" class="social-icon-btn" title="Send Email" aria-label="Send Direct Email">
+                  <i class="fa-solid fa-envelope"></i>
+                </a>
+                <a href="tel:9582035342" class="social-icon-btn" title="Call Arvind" aria-label="Call Direct">
+                  <i class="fa-solid fa-phone"></i>
+                </a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="GitHub" aria-label="GitHub Profile">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="LinkedIn" aria-label="LinkedIn Profile">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="Instagram" aria-label="Instagram Profile">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Interactive Contact Form -->
+          <div class="glass-card contact-form-container reveal-right">
+            <form id="contact-form" class="contact-form" autocomplete="off">
+              
+              <div class="form-group">
+                <label for="form-name" class="form-label">Your Name *</label>
+                <input type="text" id="form-name" class="form-input" placeholder="e.g. Rahul Sharma" required>
+              </div>
+
+              <div class="form-group">
+                <label for="form-email" class="form-label">Your Email *</label>
+                <input type="email" id="form-email" class="form-input" placeholder="e.g. rahul@example.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="form-subject" class="form-label">Subject</label>
+                <input type="text" id="form-subject" class="form-input" placeholder="e.g. Internship Opportunity / Collaboration">
+              </div>
+
+              <div class="form-group">
+                <label for="form-message" class="form-label">Message *</label>
+                <textarea id="form-message" class="form-input" placeholder="Hi Arvind, I came across your portfolio and..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary form-submit-btn" id="contact-submit-btn">
+                <span>Send Message</span>
+                <i class="fa-solid fa-paper-plane"></i>
+              </button>
+
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      
+      <div class="footer-top">
+        <!-- Brand Info -->
+        <div class="footer-brand">
+          <div class="footer-brand-title">
+            <span class="gradient-text">Arvind Kumar</span>
+          </div>
+          <p class="footer-tagline">
+            BCA 2nd Year Student &amp; Aspiring Web Developer | Madhusudan Das Degree College, Uttar Pradesh.
+          </p>
+        </div>
+
+        <!-- Quick Links -->
+        <ul class="footer-nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certificates">Certificates</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Arvind Kumar. Built with <span class="footer-heart">❤</span> and passion for code.</p>
+        
+        <!-- Social & Direct Contact Icons Footer -->
+        <div style="display: flex; gap: 0.8rem;">
+          <a href="mailto:arvindgupta32023@gmail.com" class="social-icon-btn" title="Email" aria-label="Email Arvind">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+          <a href="tel:9582035342" class="social-icon-btn" title="Phone" aria-label="Call Arvind">
+            <i class="fa-solid fa-phone"></i>
+          </a>
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="GitHub" aria-label="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="LinkedIn" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="Instagram" aria-label="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       MODALS, NOTIFICATIONS & FLOATING CONTROLS
+       ========================================================================== -->
+  
+  <!-- Floating Back to Top Button -->
+  <button class="back-to-top-btn" id="back-to-top-btn" aria-label="Back to Top of Page" title="Back to Top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Interactive Toast Alert Box -->
+  <div class="toast-container" id="toast-box" role="alert" aria-live="polite">
+    <i class="fa-solid fa-circle-check toast-icon" id="toast-icon"></i>
+    <span class="toast-message" id="toast-message">Message sent successfully!</span>
+  </div>
+
+  <!-- Certificate Image Modal Viewer -->
+  <div class="modal-overlay" id="cert-modal" role="dialog" aria-modal="true" aria-labelledby="cert-modal-title">
+    <div class="glass-card modal-card">
+      <button class="modal-close-btn" id="cert-modal-close" aria-label="Close modal window">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <img src="assets/cert-placeholder.svg" alt="Certificate Full Preview" class="modal-img-preview" id="cert-modal-img">
+      <h3 id="cert-modal-title" style="font-family: var(--font-heading); font-size: 1.4rem; font-weight: 800; margin-bottom: 0.4rem;">Certificate Title</h3>
+      <p id="cert-modal-issuer" style="color: var(--text-highlight); font-weight: 600; font-size: 0.95rem;">Issuer Organization</p>
+    </div>
+  </div>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
